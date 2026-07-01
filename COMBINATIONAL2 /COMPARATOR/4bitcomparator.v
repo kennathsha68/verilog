@@ -11,12 +11,14 @@ module foutbitcomp(
     
     always@(*)begin
     
+    gre =0;les=0;eq=0;
+    
     if(a>b)
-        assign gre = 1;
+        gre = 1;
     else if(a<b)
-        assign les = 1;
+        les = 1;
     else
-        assign eq=1;
+        eq=1;
         
     end
             
